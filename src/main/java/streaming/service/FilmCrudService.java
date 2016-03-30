@@ -18,7 +18,4 @@ public interface FilmCrudService extends CrudRepository<Film, Long>{
     public List<Film> findByGenreId(long id);
     
     public List<Film> findByPaysId(long id);
-    
-    public List<Film> findByTitreOrRealisateur(String titre, String realisateur);
-    
 }

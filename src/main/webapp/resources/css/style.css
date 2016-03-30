@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3 mars 2016, 15:46:59
+    Author     : admin
+*/
+
+body{
+    background-color: black;
+
+    font-family: fantasy;
+    font-size: large;
+}
+
+.titre{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100px;
+    color: gold;
+    background-image: url(bobine-cinema.gif);
+    height: 150px;
+}
+
+.menu{
+    text-align: center;
+    font-weight: lighter;
+    font-family: cursive;
+    font-size: x-large;
+    color: darkblue;
+    background-color: aqua;
+    border-style: dotted;
+    border-color: white;
+    border-width: 5px 0px 5px 0px;
+}
+
+.pied{
+    text-align: center;
+    font-family: inherit;
+    font-size: small;
+    color: white;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.contenu{
+    text-align: justify;
+    font-family: monospace;
+    font-size: medium;
+    color: white;
+/*    top: 500px;
+    background-color: aqua;
+    opacity: 0.80;
+    height: 100px;
+    width: 100px;
+    border-style: solid;
+    border-color: aquamarine;*/
+}
+
+a:link, a:visited, a:hover, a:focus, a:active{
+    font-style: oblique;
+    color: blue;
+}
+
+.homepage{
+    text-align: center; 
+    font-family: fantasy; 
+    font-size: xx-large; 
+    color: red;
+    width: 10px 50px 10px 50px;
+    background-image: url(../Images/bonhomme-blanc.png);
+}

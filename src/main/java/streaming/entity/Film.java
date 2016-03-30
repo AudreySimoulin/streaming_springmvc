@@ -33,7 +33,9 @@ public class Film implements Serializable {
     private Long id;
 
     private String titre;
+
     private Long annee;
+
     private String synopsis;
 
     @ManyToOne
@@ -50,6 +52,17 @@ public class Film implements Serializable {
 
     @OneToMany(mappedBy = "film")
     private List<Lien> listeLiens = new ArrayList<Lien>();
+
+    public Film(Long id, String titre, Long annee, String synopsis, Genre genre) {
+        this.id = id;
+        this.titre = titre;
+        this.annee = annee;
+        this.synopsis = synopsis;
+        this.genre = genre;
+    }
+
+    public Film() {
+    }
 
     public String getSynopsis() {
         return synopsis;
